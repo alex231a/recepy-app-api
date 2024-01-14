@@ -1,0 +1,43 @@
+# .gitignore for Django with Docker and PyCharm
+
+# Python
+*.pyc
+*.pyo
+__pycache__
+
+# Virtual Environment
+venv/
+env/
+
+# Docker
+docker-compose.yml
+Dockerfile
+.dockerignore
+
+# PyCharm
+.idea/
+*.iml
+
+# Ignore local development settings
+*.local
+
+# Ignore the database
+db.sqlite3
+
+# Ignore static files
+staticfiles/
+
+# Ignore media files
+media/
+
+# Ignore log files
+*.log
+
+# Ignore compiled Python files
+*.pyc
+
+# Ignore backup files
+*~
+
+# Ignore environment variables file
+.env
