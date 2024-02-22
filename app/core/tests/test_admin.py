@@ -1,5 +1,5 @@
 """Tests for django admin modification"""
-import django.contrib.auth.forms
+# import django.contrib.auth.forms
 from django.test import TestCase
 from django.contrib.auth import get_user_model
 from django.urls import reverse
